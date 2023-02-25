@@ -23,7 +23,7 @@
     <RadioGroup v-model="lang" class="flex flex-row justify-between w-full">
       <RadioGroupOption v-slot="{ checked }" value="en">
         <span
-          :class="[checked ? '   bg-opacity-75   ' : '']"
+          :class="[checked ? '   bg-sky-900   ' : '']"
           class="bg-black text-white relative flex cursor-pointer rounded-lg px-5 py-2 shadow-md focus:outline-none"
           @click="store.state.lang = 'en'"
           >English</span
@@ -31,7 +31,7 @@
       </RadioGroupOption>
       <RadioGroupOption v-slot="{ checked }" value="de">
         <span
-          :class="[checked ? '  bg-opacity-75 ' : '']"
+          :class="[checked ? '  bg-sky-900  ' : '']"
           class="bg-black text-white relative flex cursor-pointer rounded-lg px-5 py-2 shadow-md focus:outline-none"
           @click="store.state.lang = 'de'"
           >Deutsch</span
