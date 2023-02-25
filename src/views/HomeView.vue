@@ -28,7 +28,7 @@ import ChatBox from "../components/ChatBox.vue";
         </ul>
       </div>
     </div>
-    <div class="lg:my-[5rem] lg:mx-[40%] felx felx-col">
+    <div class="my-[1rem] lg:my-[5rem] lg:mx-[40%] felx felx-col">
       <Choose />
       <ChatBox />
     </div>
