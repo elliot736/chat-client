@@ -19,7 +19,7 @@
       </RadioGroupOption>
     </RadioGroup>
   </div> -->
-  <div class="ml-[1rem] flex w-[20rem] mb-[2rem]">
+  <div class="ml-[1rem] flex lg:w-[20rem] mb-[2rem]">
     <RadioGroup v-model="lang" class="flex flex-row justify-between w-full">
       <RadioGroupOption v-slot="{ checked }" value="en">
         <span

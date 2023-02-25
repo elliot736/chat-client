@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col bg-white w-[22rem] h-[25rem] rounded shadow-xl shadow-gray-500 border-4 border-black"
+    class="flex flex-col bg-white lg:w-[22rem] lg:h-[25rem] rounded shadow-xl shadow-gray-500 border-4 border-black"
   >
     <div class="box" ref="messageContainer">
       <div class="ml-[1rem] my-[2rem]">
@@ -77,6 +77,17 @@ export default {
 </script>
 
 <style>
+/* media queries for mobile */
+
+@media (max-width: 640px) {
+  .bot-msg {
+    width: 10rem;
+  }
+  .hum-msg {
+    width: 10rem;
+    /* margin-left: 6rem; */
+  }
+}
 .box {
   overflow-x: hidden;
   overflow-y: scroll;
