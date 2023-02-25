@@ -5,7 +5,7 @@ import ChatBox from "../components/ChatBox.vue";
 
 <template>
   <div class="flex flex-col mx-[10%]">
-    <div class="flex lg:mt-[10rem]">
+    <div class="flex mt-[5rem] lg:mt-[10rem]">
       <div class="flex flex-col text-black font-mono">
         <p>
           Hello, I'm a chat app, I was trained to answer your questions about
