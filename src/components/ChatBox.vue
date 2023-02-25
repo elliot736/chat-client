@@ -15,10 +15,10 @@
         </div> -->
         <div v-for="i in items" :key="i.id">
           <div class="bot-msg" v-if="i.isBot">
-            <p class="text-sm">{{ i.msg }}</p>
+            <p class="text-sm display-n">{{ i.msg }}</p>
           </div>
           <div class="hum-msg" v-else>
-            <p class="text-sm">{{ i.msg }}</p>
+            <p class="text-sm display-n">{{ i.msg }}</p>
           </div>
         </div>
       </div>
@@ -114,5 +114,8 @@ export default {
   margin-left: 4rem;
 
   overflow-wrap: break-word;
+}
+.display-n {
+  white-space: pre-line;
 }
 </style>
